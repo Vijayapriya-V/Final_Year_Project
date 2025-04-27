@@ -17,14 +17,23 @@ This project presents a unified deep learning framework for automatic caption ge
 🗂️ Project Structure
 
 ├── caption_image.py              # Generate captions for images
+
 ├── caption_video.py              # Generate captions for videos
+
 ├── dashboard.py                  # (Optional) Streamlit-based dashboard
+
 ├── evaluate_model.py             # BLEU, METEOR, CIDEr evaluation
+
 ├── feature_extractor.py          # Extract hybrid features (InceptionV3, VGG16, ResNet152)
+
 ├── generate_image_predictions.py # Generate batch image caption predictions
+
 ├── generate_video_predictions.py # Generate batch video caption predictions
+
 ├── train_image_captioning.py     # Train image captioning model
+
 ├── train_video_captioning.py     # Train video captioning model
+
 ├── README.md
 
 📊 Results
@@ -74,13 +83,21 @@ To run the project:
 Dataset Folder Structure:
 
 datasets/
+
 ├── images/
+
 │   ├── img1.jpg
+
 │   ├── img2.jpg
+
 ├── videos/
+
 │   ├── video1.mp4
+
 │   ├── video2.mp4
+
 ├── image_captions.csv
+
 ├── video_captions.csv
 
 4. Train the Models
@@ -124,8 +141,12 @@ Deploy an improved web interface (Streamlit dashboard).
 
 👨‍💻 Project Members and Contributions
 Name	         Contribution
+
 Vijayapriya V	 Model Development, Evaluation
+
 Sakthi Shree R Data Collection, Manual Caption Labeling
+
 Jeeviha A	     Feature Extraction, Keyframe Extraction, Documentation
+
 Jeevakaruny R	 Caption Generation, Dashboard Creation
 
