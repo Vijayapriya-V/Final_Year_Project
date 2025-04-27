@@ -161,7 +161,7 @@ matplotlib
 
 
 👨‍💻 Project Members and Contributions
-Name	         Contribution
+
 
 Vijayapriya V	 -> Model Development, Evaluation
 
